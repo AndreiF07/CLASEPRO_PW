@@ -1,0 +1,23 @@
+Tipos de lenguajes de programación:
+    - Bajo nivel (ensamblador o codigo máquina) -> Se ejecutan muy cercanos al hardware
+        Hexa, Octal, Binario
+
+    - Alto nivel -> Similares al lenguaje humano
+        System.out.println("hola")
+
+        - Interpretados -> lee y ejecuta la linea de código -> Python
+
+Pasos de la programación:
+    1. Planificación
+    2. Diseño -> UML, Documentación 
+    3. Codificación
+    4. Test -> JUnit
+    5. Despliegue
+    6. Mantener el software
+
+GUTHUB:
+    - Repositorio -> Espacio en un servidor / local reservado para subir codigos y mantener los cambios
+    - Rama -> Carril donde puedo realizar acciones sobre el Repositorio
+    - Merge -> Garantizar los cambios del repo local
+    - Push -> Sube los cambios al repo de reservado
+    - Pull -> Descargar los cambios que hay de diferente entre el repo red y mi repo local

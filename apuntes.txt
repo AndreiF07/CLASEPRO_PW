@@ -5,6 +5,7 @@ Tipos de lenguajes de programación:
     - Alto nivel -> Similares al lenguaje humano
         System.out.println("hola")
 
+        - Compilados -> necesitan de un programa que traduzca las lineas de codigo -> Java
         - Interpretados -> lee y ejecuta la linea de código -> Python
 
 Pasos de la programación:

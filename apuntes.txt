@@ -22,3 +22,46 @@ GUTHUB:
     - Merge -> Garantizar los cambios del repo local
     - Push -> Sube los cambios al repo de reservado
     - Pull -> Descargar los cambios que hay de diferente entre el repo red y mi repo local
+
+JAVA:
+Clases -> molde / estructura podran ser objetos (instrucciones de como funcionara un objeto)
+donde escribimos metodos y se ejecutan lineas
+    Los nombres Mayusculas
+    Los nombre representativos
+    Los nombre no pueden ser palabras reservadas
+
+Metodos -> funcionalidades son llamadas dentro de otros metodos o main, para poder ejecutar cosas
+    Los nombres minusculas
+    Los nombres representativos
+    No pueden existir dos metodos con la misma firma
+
+Variables -> un espacio en memoria (en nuestro codigo) donde podemos guardar un dato
+    Los nombres en minuscula ("casi siempre")
+    Los nombre representativos, sin caracteres especiales
+    Para utilizar una variable, siempre dentro de un metodo
+    No pueden existir dos variables con el mismo nombre
+    varType nombre = valor
+
+Tipos de datos
+    String -> palabra, su valor va definido entre ""
+    char -> letras, su valor va definido entre ''
+    
+    int -> numeros sin decimales
+    float -> numero con decimales sin precision. Termina con una f
+    double -> numero con decimales con precision
+
+    boolean -> true / false. Para poder tomar decisiones
+
+Clasificacion de las variables
+
+ - Variables segun su forma de crearse
+    Variables complejas (mayuscula): aquella que se crea a partir de una clase. Pueden ejecutar sus metodos especificos
+    Variables primitivas (minuscula): aquellas que no se crean a partir de una clase y simplemente guarda un dato. Toda primitiva 
+    tiene una clase que la genera
+ - Variables según su forma de asignar el valor
+    Variables mutables: aquellas que pueden cambiar su valor en cualquier momento
+    Variables no mutables (final varType): aquellas que NO pueden cambiar su valor. Se suele escribir en mayusculas. 
+ - Variables segun el tipo de dato
+ - Variables segun el ambito que tienen: sitios donde una variable es visible
+	clase - global: definida en un ambito grande para que pueda ser accedida desde muchos sitios
+	bloque: definida dentro de un bloque pequeño para ser usada en el mismo
